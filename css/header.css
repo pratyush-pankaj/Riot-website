@@ -1,0 +1,175 @@
+/* CSS code for global header and global items */
+html{
+	height: 100%;
+}
+
+
+html, body, a, ul, p, h1,h2,h3,h4,h5,h6,img,ol,li{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{list-style:none;}
+
+a{color:inherit;text-decoration: none;}
+
+.centre{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#header{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgba(0,0,0,0.1);
+	border-top: 5px #F52887 solid;
+	z-index: 950;
+}
+
+.otherPageHeader{
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	background: #fff !important;
+	border-bottom: 1px #E5E4E2 solid;
+}
+
+.logo{
+	display: none;
+	position: relative;
+	text-indent: -9999px;
+	color:#fff;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 85%;
+	background-position: 0px -15px;
+	width: 15%;
+	height: 60px;
+	float: left;
+	margin-left: 7%;
+	z-index: 1000;
+	/*border:1px #111 solid;*/
+}
+
+.otherPageHeader .logo{
+	display: block !important;
+}
+
+.menu{
+	position: relative;
+	float: right;
+	margin-right: 7%;
+	z-index: 1000;
+}
+
+.menu ul{
+	font-family: Dosis;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	/*position: relative;*/
+	
+}
+
+.menu ul li{
+	display: inline-block;
+	*display: inline;
+	color: #fff;
+	/*font-weight: bold;*/
+	padding: 21px;
+	transition: all 0.3s ease-in;
+	cursor: pointer;
+	position: relative;
+}
+
+.otherPageHeader .menu ul li{
+	padding: 24px !important;
+	color: #999 !important;
+}
+
+.menu ul li:hover{
+	color: #F52887;
+	border-bottom: 2px #F52887 solid;
+}
+
+.otherPageHeader .menu ul li:hover{
+	color: #F52887 !important;
+	border-bottom: none !important;
+}
+
+.menu ul li ul{
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 84px;
+	background: #F52887;
+	width: 100%;
+}
+
+.otherPageHeader .menu ul li ul{
+	top: 95px;
+}
+
+.menu ul li ul li{
+	display: inline-block !important;
+	position: relative;
+	padding: 20px;
+}
+
+.otherPageHeader .menu ul li ul li{
+	color: #fff !important;
+}
+
+.menu ul li ul li:hover{
+	background: #C12267;
+	text-decoration: none;
+	border:none;
+	color: #fff;
+}
+
+.otherPageHeader .menu ul li ul li:hover{
+	color: #fff !important;
+}
+
+.menu ul li:hover ul{
+	display: block;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+
+.noClass{
+	position: relative !important;
+}
+
+.noClass{
+	background: #F52887 !important;
+}
+
+#footer h3{
+	font-family: Myriad;
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom:15px; 
+}
+
+#footer h3 a{
+	color: #F52887;
+	cursor: pointer;
+}
+
+.noClass h3 a{
+	color: #fff !important;
+}
+
+#footer h3 a:hover{
+	text-decoration: underline;
+}

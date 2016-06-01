@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Dosis;
+	src: url(../fonts/Dosis/Dosis-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Myriad;
+	src: url(../fonts/Myriad/MyriadPro-Light.otf) format("opentype");
+}
+
+@font-face{
+	font-family:Ubuntu;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:UbuntuRegular;
+	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Oswald;
+	src: url(../fonts/Oswald/Oswald-Bold.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:PT;
+	src: url(../fonts/PT_Sans/PT_Sans-Web-Bold.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Roboto;
+	src: url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:SourceSans;
+	src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf) format("truetype");
+}

@@ -1,0 +1,92 @@
+/* CSS code for index page */
+
+body{
+	background: url(../images/back1.jpg) no-repeat !important;
+	background-size: cover !important;
+}
+
+#page{
+	margin: 0 auto;
+	width: 1100px;
+	position: relative;
+	top: 85px;
+	/*border: 2px #f00 solid;*/
+}
+
+#page div{
+	display: inline-block;
+	*display: inline;
+}
+
+#pageLeft{
+	width: 50%;
+	padding: 20px;
+	/*border: 1px #fff solid;*/
+	position: relative;
+}
+
+#pageLeft h1{
+	font-family: Oswald;
+	padding: 80px 0px 20px 80px; 
+	color: #fff;
+	font-size: 120px;
+	z-index: 100;
+}
+
+#pageLeft h1 span{
+	position: relative;
+	top: -40px;
+}
+
+.spray{
+	color: #fff;
+	background: url(../images/bigSpray.png) no-repeat;
+	background-position: -20px -100px;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	z-index: 200;
+	/*border: 1px #fff solid;*/
+	padding: 200px;
+	text-indent: -9999px;
+}
+
+#pageRight{
+	float: right;
+	width: 40%;
+	padding: 20px;
+	padding-top: 285px;
+	/*border: 1px #fff solid;*/
+	position: relative;
+}
+
+#pageRight h2{
+	font-family: Roboto;
+	font-size: 30px;
+	color: #fff;
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+.enterButton{
+	float: right;
+	border:none;
+	background:#F52887;
+	color:#fff;
+	padding: 10px;
+	font-family: SourceSans;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 0.4s ease;
+}
+
+.enterButton:hover{
+	padding-right: 40px;
+	color: #F52887;
+	background: #fff;
+	cursor: pointer;
+}
+
+
+
